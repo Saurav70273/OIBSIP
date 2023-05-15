@@ -1,0 +1,92 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing:content-box;
+}
+
+body {
+    background-color: rgb(120, 255, 244);
+    padding: 90px 90px;
+}
+
+h1 {
+    text-align: center;
+}
+
+#container {
+    justify-content: center;
+    background-color: rgb(110, 0, 52);
+    padding: 50px;
+    display:ruby;
+    border-radius: 50px;
+    border: 3px solid rgb(255, 255, 255);
+    outline:thick
+}
+
+.input {
+    padding: 10px;
+    border-radius: 20px;
+    border: 3px solid rgb(255, 255, 255);
+    margin: 20px;
+    background-color: burlywood;
+    outline: none;
+    text-align: center;
+}
+
+.inp {
+    border-radius: 15px;
+    border: 3px solid rgb(255, 255, 255);
+    margin: 10px;
+    background-color: rgb(165, 179, 169);
+    outline: none;
+    text-align: center;
+}
+
+.input .inp {
+    font-size: 30px;
+    font-weight:bolder;
+}
+
+.label {
+    font-size: 32px;
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="temp.css" type="text/css">
+    <title>Temperature convertor</title>
+</head>
+
+<body>
+    <h1>Temperature Convertor</h1>
+
+    <div id="container">
+
+
+
+        <div class="input">
+            <label for="cel" class="label"> CELCIUS: </label> <br>
+            <input type="number" value="0" id="cel" class="inp">
+
+        </div>
+
+
+
+        <div class="input">
+            <label for="fer" class="label"> FEHRENHEIT: </label> <br>
+            <input type="number" value="32" id="fer" class="inp">
+
+        </div>
+        <div class="copyright">
+            &copy; Copyright <strong><span>Saurabh More</span></strong>
+          </div>
+          
+
+    </div>
+    <script src="temp.js"></script>
+</body>
+
+</html>
